@@ -6,7 +6,7 @@ export class Schmuck extends Gegenstand {
     public wert: number,
     public bezeichnung: string
   ) {
-    super((id = id), (wert = wert));
+    super(id, wert);
     
   }
   toString(): string {

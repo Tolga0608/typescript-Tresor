@@ -9,7 +9,7 @@ const appDiv: HTMLElement = document.getElementById('app');
 appDiv.innerHTML = '<h1>Für Ausgabe der Tresor-Typescript-App die Konsole öffnen!</h1>';
 
 
-let a1: Aktie = new Aktie(1, 97.88, 'BASF', 50.0);
+let a1: Aktie = new Aktie(1, 97.88, 50.0 , 'BASF');
 
 //todo: Ergänzungen lt. Aufgabenstellung
 
