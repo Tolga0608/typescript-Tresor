@@ -1,21 +1,20 @@
 import { Gegenstand } from "./gegenstand";
-export class Schmuck extends Gegenstand {
+export class Aktie extends Gegenstand {
   constructor(
-    public id: number,
-    public wert: number,
+    id: number,
+    wert: number,
     public nennwert: number,
     public unternehmen: string
   ) {
-    super((id = id), (wert = wert));
-    
+    super(id, wert);
   }
   toString(): string {
     let text: string =
       'Schmuck{' +
       super.toString() +
-      "nennwert='" +
+      "\nnennwert='" +
       this.nennwert +
-      "unternehmen='" +
+      "\nunternehmen='" +
       this.unternehmen +
       "'" +
       '}';
